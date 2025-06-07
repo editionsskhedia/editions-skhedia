@@ -85,7 +85,7 @@ footer {
 }
 
 .case img {
-  max-width: 180px; /* largeur max fixée */
+  max-width: 216px; /* largeur max augmentée de 20% (180px × 1.2) */
   width: 100%;      /* s’adapte au conteneur */
   height: auto;     /* proportions conservées */
   display: block;
