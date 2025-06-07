@@ -65,13 +65,16 @@ footer {
   height: auto;
 }
 
+/* Grille du catalogue */
+
 .catalogue-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr; /* 2 colonnes égales */
+  grid-template-rows: repeat(3, auto);
   gap: 20px;
   max-width: 800px;
   margin: 20px auto;
+  justify-items: center; /* centre contenu des cases */
 }
 
 .case {
@@ -82,13 +85,14 @@ footer {
 }
 
 .case img {
-  max-width: 160%; /* 30% plus grand que 123% précédemment */
-  height: auto;
+  max-width: 216px; /* largeur max augmentée de 20% (180px × 1.2) */
+  width: 100%;      /* s’adapte au conteneur */
+  height: auto;     /* proportions conservées */
   display: block;
   margin: 0 auto 10px;
 }
 
 .case5 {
-  grid-column: 1 / 2; /* Colonne 1 */
-  grid-row: 3 / 4;    /* Ligne 3 */
+  grid-column: 1 / 2; /* colonne 1 */
+  grid-row: 3 / 4;    /* ligne 3 */
 }
