@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact - Éditions Skhedia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Éditions Skhedia</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="auteurs.html">Auteurs</a>
+      <a href="catalogue.html">Catalogue</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Contactez-nous</h2>
+    <form action="https://formspree.io/f/maykwlvd" method="POST">
+      <label for="name">Nom :</label><br/>
+      <input type="text" id="name" name="name" required /><br/><br/>
+      
+      <label for="email">Email :</label><br/>
+      <input type="email" id="email" name="_replyto" required /><br/><br/>
+      
+      <label for="message">Message :</label><br/>
+      <textarea id="message" name="message" rows="5" required></textarea><br/><br/>
+      
+      <button type="submit">Envoyer</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Éditions Skhedia</p>
+  </footer>
+</body>
+</html>
