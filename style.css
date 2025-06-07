@@ -78,6 +78,10 @@ footer {
 }
 
 .case {
+  min-height: 420px; /* hauteur minimum pour aligner texte */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   background-color: white;
   padding: 15px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -85,11 +89,11 @@ footer {
 }
 
 .case img {
-  max-width: 216px; /* largeur max augmentée de 20% (180px × 1.2) */
-  width: 100%;      /* s’adapte au conteneur */
-  height: auto;     /* proportions conservées */
+  height: 250px;   /* taille fixe en hauteur */
+  width: auto;     /* largeur automatique pour garder proportions */
   display: block;
   margin: 0 auto 10px;
+  object-fit: contain; /* image pas déformée */
 }
 
 .case5 {
