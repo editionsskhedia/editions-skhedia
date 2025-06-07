@@ -50,3 +50,23 @@ footer {
   color: #666666;
   margin: 40px 0 20px;
 }
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.side-image {
+  flex-shrink: 0;
+  max-width: 150px;
+  height: auto;
+}
+
+main {
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
