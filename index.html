@@ -2,57 +2,53 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Éditions Skhedia</title>
+  <title>Accueil - Éditions Skhedia</title>
   <link rel="stylesheet" href="style.css" />
   <style>
     nav {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 20px; /* Réduction de l'espacement entre les éléments */
-      margin-top: 15px;
-    }
-
-    nav .separator {
-      font-size: 18px;
-      line-height: 1;
-      color: black;
-      margin: 0 4px;
+      flex-wrap: wrap;
+      gap: 15px; /* réduit l'espacement entre les onglets */
     }
 
     nav a {
       text-decoration: none;
       color: black;
       font-weight: bold;
+      white-space: nowrap; /* évite les coupures mot par mot */
+    }
+
+    nav .dot {
+      font-size: 10px;
+      color: black;
+      line-height: 1;
     }
   </style>
 </head>
 <body>
-<header>
-  <img src="images/logo.png" alt="Éditions Skhedia" style="max-width: 300px; height: auto;">
-  <nav>
-    <a href="index.html">Accueil</a><span class="separator">•</span>
-    <a href="a-propos.html">Manifeste des Éditions Skhedia</a><span class="separator">•</span>
-    <a href="catalogue.html">Catalogue</a><span class="separator">•</span>
-    <a href="auteurs.html">Où acheter nos livres ?</a><span class="separator">•</span>
-    <a href="contact.html">Contact</a><span class="separator">•</span>
-    <a href="chaine.html">Chaîne YouTube</a>
-  </nav>
-</header>
+  <header>
+    <img src="images/logo.png" alt="Éditions Skhedia" style="max-width: 300px; height: auto;">
+    <nav>
+      <a href="index.html">Accueil</a>
+      <span class="dot">●</span>
+      <a href="a-propos.html">Manifeste des Éditions Skhedia</a>
+      <span class="dot">●</span>
+      <a href="catalogue.html">Catalogue</a>
+      <span class="dot">●</span>
+      <a href="auteurs.html">Où acheter nos livres ?</a>
+      <span class="dot">●</span>
+      <a href="contact.html">Contact</a>
+      <span class="dot">●</span>
+      <a href="chaine.html">Chaîne YouTube</a>
+    </nav>
+  </header>
 
-<div class="page-container">
-  <img src="images/image-gauche.png" alt="Image gauche" class="side-image">
-  <main>
-    <h2>Bienvenue sur le site des Éditions Skhedia</h2>
-    <p>
-      Une maison d’édition indépendante et exigeante, tournée vers la philosophie, la pensée critique et la littérature engagée.
-    </p>
-  </main>
-  <img src="images/image-droite.jpg" alt="Image droite" class="side-image">
-</div>
-
-<footer>
-  <p>&copy; 2025 Éditions Skhedia</p>
-</footer>
-</body>
-</html>
+  <div class="page-container">
+    <img src="images/image-gauche.png" alt="Image gauche" class="side-image">
+    <main>
+      <h2>Bienvenue</h2>
+      <p>Bienvenue sur le site des Éditions Skhedia, maison d’édition indépendante dédiée à la pensée contemporaine, à la philosophie, et aux œuvres de réflexion engagée.</p>
+    </main>
+    <img src="images/image-droite.jpg" alt="I
